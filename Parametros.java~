@@ -1,0 +1,13 @@
+public class Parametros{
+    public static void main(String[] args){
+	int a = 9;
+
+	System.out.println("Valor de la variable 'a' antes de llamar al metodo: " + a);
+	incrementar(a);
+	System.out.println("Valor de la variable 'a' antes de llamar al metodo: " + a);
+    }
+
+    public static void incrementar(int a){
+	a++;
+    }
+}
